@@ -68,6 +68,8 @@ function DocumentGenerator() {
             {/* Lien de téléchargement */}
             {downloadUrl && (
                 <div className="download-link">
+                    <p>Le documeny est prêt a être téléchargé. </p>
+                    <p>Cliquez sur le boutton ci-dessous pour le telecharger. </p>
                     <a href={downloadUrl} download={`attestation_travail_${fullName}.docx`}>Télécharger le document</a>
                 </div>
             )}
